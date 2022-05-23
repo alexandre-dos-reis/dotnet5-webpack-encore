@@ -1,0 +1,30 @@
+{
+  "name": "dotnet5-webpack-encore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "concurrently --names \"webpack-encore,dotnet\" -c \"bgBlue.bold,bgMagenta.bold\" \"npm run dev-server\" \"dotnet watch\"",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^2.1.0",
+    "concurrently": "^7.1.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.0.0",
+    "webpack-notifier": "^1.6.0"
+  },
+  "dependencies": {
+    "@hotwired/turbo": "^7.1.0",
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "jquery-validation": "^1.19.3",
+    "jquery-validation-unobtrusive": "^3.2.12"
+  }
+}

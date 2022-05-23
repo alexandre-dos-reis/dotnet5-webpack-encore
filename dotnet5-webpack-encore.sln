@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet5-webpack-encore", "dotnet5-webpack-encore.csproj", "{914CC46C-8009-470D-89B8-8EB76F84D212}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{914CC46C-8009-470D-89B8-8EB76F84D212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914CC46C-8009-470D-89B8-8EB76F84D212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914CC46C-8009-470D-89B8-8EB76F84D212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914CC46C-8009-470D-89B8-8EB76F84D212}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0388162E-7FE8-46C1-B0C7-7DD2239A3539}
+	EndGlobalSection
+EndGlobal
