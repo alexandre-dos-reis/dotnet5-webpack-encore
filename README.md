@@ -2,6 +2,5 @@
 
 # Todos
 
-- Commit
 - Explain
 - Publish to Nuget
